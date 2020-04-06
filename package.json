@@ -1,0 +1,39 @@
+{
+  "name": "linkedin-search",
+  "version": "0.0.1",
+  "description": "OSINT username search tool for LinkedIn.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "tape ./tests/index.js"
+  },
+  "bin": {
+    "linkedin": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerdevs/linkedin-search.git"
+  },
+  "keywords": [
+    "osint",
+    "username",
+    "search",
+    "cli",
+    "infosec",
+    "linkedin"
+  ],
+  "author": "Tyler Colwell <tylerqc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerdevs/linkedin-search/issues"
+  },
+  "homepage": "https://github.com/tylerdevs/linkedin-search#readme",
+  "devDependencies": {
+    "tape": "^4.13.2",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "request": "^2.88.2",
+    "yargs": "^15.3.1"
+  }
+}
